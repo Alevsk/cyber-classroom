@@ -1,0 +1,208 @@
+/* Main tables style */
+
+table tbody tr td, table thead tr th
+{
+  text-align: center;
+}
+table
+{
+  width: 100%;
+}
+
+.table_commands
+{
+	
+}
+
+.row_selected
+{
+	background: #CFE5FF !important;
+}
+
+/* Icons size in row */
+.table_row  td a .fa
+{
+	font-size: 15px;
+	font-weight: normal;
+}
+/* END Icons size in row */
+
+/* END Main tables style */
+
+/* */
+
+.custom .row .columns
+{
+}
+
+.custom .row .columns .label
+{
+	width: 100%;
+	text-align: left;
+}
+/* END */
+
+/*Date picker custom css */
+
+.ui-datepicker-header
+{
+	background: #2ba6cb;
+}
+
+#ui-datepicker-div
+{
+	box-shadow: rgb(51, 51, 51) 1px 2px 5px;
+	z-index: 999;
+}
+
+/* Date picker custom css */
+.ui-datepicker-header a
+{
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px;
+	background: #2ba6cb;
+}
+.ui-datepicker-header a:first-child
+{
+	float: left;
+}
+.ui-datepicker-header a:nth-child(2)
+{
+	float: right;
+}
+.ui-datepicker-title
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #e9e9e9;
+	color: #333333;
+	padding: 5px 0px;
+}
+
+.ui-datepicker-unselectable
+{
+	background:#E8E8E8;
+}
+
+/* END Date picker custom css */
+
+#theOptions
+{
+	display: none;
+}
+.moreOptions
+{
+	margin-bottom: 10px !important;
+	text-align: left
+}
+.questionDescription
+{
+	padding: 15px 0px;
+}
+
+.inputButtonContainer
+{
+	/*height: 33px;*/
+	overflow-y: hidden;
+}
+
+.deleteAnswerButton,.deleteAnswerButtonEdit
+{
+	margin-bottom: 15px;
+}
+
+.deleteAnswerButton:hover,.deleteAnswerButtonEdit:hover
+{
+	background:#c31013;
+	color: #FFFFFF;
+}
+
+.no-color-panel
+{
+	background: none;
+	margin-bottom: 20px !important;
+}
+
+.mceEditor table {
+max-width:none; /* Bug in computation of fullscreen */
+}
+
+.mceEditor table.mceLayout {
+width:100% !important;
+height:auto !important;
+} 
+
+table.mceToolbar { float:left; }
+body .mceToolbar div {
+white-space:normal;
+}
+
+/* make the toolbar wrap */
+.mceToolbar td {
+    display:table-row;
+    float: left;
+}
+.mceToolbar td:nth-of-type(11){
+    clear: left;
+}
+
+.mceLayout
+{
+	margin-bottom: 20px !important;
+}
+
+#professors, #students
+{
+	display: none;
+}
+#user_table_selection .selected
+{
+	background: #f5f5f5 !important;
+	color: #333333 !important;
+	border: 1px 1px 0px 1px solid #cccccc !important;
+}
+#user_table_selection
+{
+	height: 30px;
+	overflow-y: hidden;
+}
+
+.clearlooks2
+{
+
+}
+.students-loader
+{
+	resize: none;
+	height: 600px;
+}
+.ms-selectable input, .ms-selection input
+{
+	margin-bottom: 0px !important;
+	border-bottom: 0px !important;
+}
+#ms-TestAuto .ms-selectable .ms-list
+{
+	height: 168px !important;
+}
+
+#numberOfQuestionsPerTopic
+{
+	height: 200px;
+	overflow-y: scroll;
+	border-bottom: 1px solid #ccc;
+}
+#numberOfQuestionsPerTopic input
+{
+	margin-bottom: 0px !important;
+	height: 27px;
+	padding-top: 0px;
+	border: 0px;
+	padding-bottom: 0px;
+}
+.test-score tbody tr td, .test-score tbody tr th
+{
+	text-align: left;
+}

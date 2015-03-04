@@ -1,0 +1,24 @@
+{
+  "name": "crocodoc/crocodoc-php",
+  "description": "PHP wrapper for the Crocodoc API",
+  "keywords": [
+    "crocodoc",
+    "api"
+  ],
+  "homepage": "https://crocodoc.com/docs/api/",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Brandon Goldman",
+      "email": "brandon.goldman@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "ext-curl": "*"
+  },
+  "type": "library",
+  "autoload": {
+    "classmap": ["Crocodoc.php"]
+  }
+}
